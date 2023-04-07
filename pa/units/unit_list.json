@@ -1,0 +1,20 @@
+{
+    "units": [
+
+        "/pa/units/land/recon/c_radar/c_radar.json",
+        "/pa/units/land/recon/c_radar_adv/c_radar_adv.json",
+        "/pa/units/land/recon/c_l_radar/c_l_radar.json",
+        "/pa/units/land/recon/c_l_radar_adv/c_l_radar_adv.json",
+
+        "/pa/units/orbital/c_radar_satellite/c_radar_satellite.json",
+        "/pa/units/orbital/c_radar_satellite_adv/c_radar_satellite_adv.json",
+        "/pa/units/orbital/c_l_radar_satellite/c_l_radar_satellite.json",
+        "/pa/units/orbital/c_l_radar_satellite_adv/c_l_radar_satellite_adv.json",
+
+        "/pa/units/land/recon/c_system_radar/c_system_radar.json",
+        "/pa/units/land/recon/c_l_system_radar/c_l_system_radar.json",
+
+        "/pa/units/orbital/solaris/solaris.json",
+        "/pa/units/orbital/c_l_orbital_laser/c_l_orbital_laser.json"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+	"identifier": "com.pa.expansion.celestial.additional",
+	"display_name": "Celestial Expansion Additional",
+	"description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
+	"author": "TATAPSTAR",
+	"signature": "not yet implemented",
+	"context": "server",
+	"priority": 100,
+	"titansOnly": true,
+	"dependencies": [
+		"com.pa.expansion.celestial"
+	],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/com.pa.expansion.celestial.additional/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/com.pa.expansion.celestial.additional/icon_atlas.js"
+		]
+	},
+	"category":[
+		"titans",
+		"units",
+		"balance"
+	],
+	"date": "2023-04-07",
+	"build": "116400",
+	"version": "1.0.1"
+}
