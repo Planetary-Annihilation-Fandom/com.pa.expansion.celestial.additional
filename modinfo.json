@@ -2,6 +2,7 @@
 	"identifier": "com.pa.expansion.celestial.additional",
 	"display_name": "Celestial Expansion Additional",
 	"description": "Take a new look into Space! Updates orbital gameplay to make it deep, friendly and exciting!",
+	"icon":"https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/icon.png",
 	"author": "TATAPSTAR",
 	"signature": "not yet implemented",
 	"context": "server",
