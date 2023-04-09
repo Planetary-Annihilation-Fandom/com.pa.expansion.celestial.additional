@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "unit_name": "Advanced Radar",
     "display_name": "!LOC:Advanced Radar",
-    "description": "!LOC:Advanced Radar - Detects nearby enemy land, sea, and air units.",
+    "description": "!LOC:Advanced Radar - Detects nearby enemy land, sea, and air units. Reveals orbital targets on the planet.",
     "max_health": 1500,
     "build_metal_cost": 2400,
     "consumption": {

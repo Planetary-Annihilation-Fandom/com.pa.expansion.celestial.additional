@@ -3,7 +3,7 @@
   "unit_name": "Celestial-wide Radar",
   "si_name": "c_system_radar",
   "display_name": "!LOC:Celestial-wide Radar",
-  "description": "!LOC:Celestial-wide Radar - Radar telemetry with large planet vision radius. Allows to see all orbital objects in the entire star system",
+  "description": "!LOC:Celestial-wide Radar - Radar telemetry with large planet vision radius. Allows to see all orbital targets in the entire star system. Visible to everyone.",
   "max_health": 2000,
   "build_metal_cost": 4800,
   "consumption": { "energy": 8000 },

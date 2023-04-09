@@ -16,7 +16,7 @@
     "github": "https://github.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial.additional/",
 
     "build": "116400",
-    "version": "1.0.0-up0",
+    "version": "1.0.5-up0",
     "date": "2023-04-08",
     
     "context":"server",

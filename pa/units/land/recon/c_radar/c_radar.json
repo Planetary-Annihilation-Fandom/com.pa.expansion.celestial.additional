@@ -2,7 +2,7 @@
     "base_spec": "/pa/units/land/base_structure/base_structure.json",
     "unit_name": "Radar",
     "display_name": "!LOC:Radar",
-    "description": "!LOC:Basic radar - Detects nearby enemy land, sea, and air units.",
+    "description": "!LOC:Basic Radar - Detects nearby enemy land, sea, and air units. Marks orbital targets on the planet.",
     "max_health": 500,
     "build_metal_cost": 200,
     "consumption": {

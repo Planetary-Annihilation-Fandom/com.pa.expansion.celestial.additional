@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-    "display_name": "ARKYD",
-    "description": "!LOC:Basic Radar - Detects a large area for enemy land, sea, and air units.",
+    "display_name": "!LOC:ARKYD",
+    "description": "!LOC:Basic Radar - Detects a large area for enemy land, sea, and air units. Reveals orbital targets on the planet in a certain distance. Marks orbital targets on the planet. Visible to everyone.",
     "max_health": 1000,
     "build_metal_cost": 430,
     "attachable": {
