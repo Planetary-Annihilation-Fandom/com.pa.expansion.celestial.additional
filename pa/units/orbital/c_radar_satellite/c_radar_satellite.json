@@ -14,7 +14,7 @@
         }
     },
     "consumption": {
-        "energy": 2300
+        "energy": 1450
     },
     "energy_efficiency_requirement": 0.9,
     "unit_types": [
