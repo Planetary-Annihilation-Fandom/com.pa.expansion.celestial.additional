@@ -1,51 +1,32 @@
 {
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
   "display_name": "!LOC:Black Knight",
   "description": "!LOC:Siege Plasma Launcher - High splash damage. Attacks land and sea at a great distance.",
-  "TEMP_texelinfo": 31.6199,
-  "attachable": {
-    "offsets": {
-      "root": [
-        0,
-        0,
-        0
-      ]
-    }
-  },
-  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "max_health": 900,
   "build_metal_cost": 4800,
+  "guard_layer": "WL_AnySurface",
+  "tools": [
+    {
+      "aim_bone": "bone_tusks",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/orbital/c_l_orbital_laser/l_orbital_laser_weapon_rocket.json"
+    }
+  ],
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Offense",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_LaserPlatform",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_Custom1",
+    "UNITTYPE_Interplanetary"
+  ],
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Attack"
   ],
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/orbital"
-    },
-    "died": {
-      "effect_scale": 2
-    },
-    "fired": {
-      "audio_cue": "/SE/Weapons/orb/orb_ssx_laser_fire",
-      "effect_scale": 3,
-      "effect_spec": "/pa/units/orbital/orbital_laser/orbital_laser_muzzle_flash.pfx socket_muzzle"
-    }
-  },
-  "guard_layer": "WL_AnySurface",
-  "maintain_priority_target": true,
-  "max_health": 900,
-  "mesh_bounds": [
-    38,
-    38,
-    40
-  ],
-  "model": {
-    "animations": {
-      "idle": "/pa/units/orbital/l_orbital_laser/l_orbital_laser_open.papa"
-    },
-    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
-    "filename": "/pa/units/orbital/l_orbital_laser/l_orbital_laser.papa"
-  },
   "navigation": {
     "acceleration": 20,
     "brake": 20,
@@ -53,10 +34,6 @@
     "turn_in_place": true,
     "turn_speed": 90
   },
-  "physics": {
-    "radius": 10
-  },
-  "planetary_arrival_cooldown_time": 5.0,
   "recon": {
     "observer": {
       "items": [
@@ -81,24 +58,47 @@
       ]
     }
   },
+  "physics": {
+    "radius": 10
+  },
   "selection_icon": {
     "diameter": -46
   },
-  "tools": [
-    {
-      "aim_bone": "bone_tusks",
-      "muzzle_bone": "socket_muzzle",
-      "spec_id": "/pa/units/orbital/c_l_orbital_laser/l_orbital_laser_weapon_rocket.json"
-    }
+  "model": {
+    "animations": {
+      "idle": "/pa/units/orbital/l_orbital_laser/l_orbital_laser_open.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/constant_idle_anim_tree.json",
+    "filename": "/pa/units/orbital/l_orbital_laser/l_orbital_laser.papa"
+  },
+  "mesh_bounds": [
+    38,
+    38,
+    40
   ],
-  "unit_types": [
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Offense",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_LaserPlatform",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_Custom1",
-    "UNITTYPE_Interplanetary"
-  ]
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "TEMP_texelinfo": 31.6199,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "died": {
+      "effect_scale": 2
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/orb/orb_ssx_laser_fire",
+      "effect_scale": 3,
+      "effect_spec": "/pa/units/orbital/orbital_laser/orbital_laser_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "maintain_priority_target": true,
+  "planetary_arrival_cooldown_time": 5.0
 }
