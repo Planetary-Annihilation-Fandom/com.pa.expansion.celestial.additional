@@ -1,4 +1,6 @@
 var paeiouIcons = [
+    "l_air_combat",
+
     "anti_orbital_titan",
     "l_anti_orbital_titan",
 

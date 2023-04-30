@@ -1,5 +1,7 @@
 var newBuild = {
 
+    "/pa/units/air/l_air_combat/l_air_combat.json":["L_air",0,{row:2, column:5}],
+
     "/pa/units/orbital/solaris/solaris.json":["orbital",0,{row:1,column:0}],
     "/pa/units/orbital/c_l_orbital_laser/c_l_orbital_laser.json":["L_orbital",0,{row:1,column:1}],
 

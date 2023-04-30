@@ -1,6 +1,8 @@
 {
     "units": [
 
+        "/pa/units/air/l_air_combat/l_air_combat.json",
+
         "/pa/units/land/recon/c_radar/c_radar.json",
         "/pa/units/land/recon/c_radar_adv/c_radar_adv.json",
         "/pa/units/land/recon/c_l_radar/c_l_radar.json",
