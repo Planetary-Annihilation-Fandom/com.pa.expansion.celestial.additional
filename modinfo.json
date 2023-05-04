@@ -20,7 +20,7 @@
     "date": "2023-05-04",
     
     "context":"server",
-    "priority": 100,
+    "priority": 200,
 
     "dependencies":[
         "com.pa.expansion.celestial"
