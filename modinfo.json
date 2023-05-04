@@ -25,9 +25,6 @@
     "dependencies":[
         "com.pa.expansion.celestial"
     ],
-    "companions":[
-        "com.pa.expansion.celestial"
-    ],
 
     "scenes":{
         "shared_build": [
