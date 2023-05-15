@@ -57,5 +57,8 @@
       "stage_turn_rate": 405,
       "rotates_to_velocity": true
     }
-  ]
+  ],
+  "armor_damage_map": {
+    "AT_Commander": 0.10
+  }
 }

@@ -1,5 +1,5 @@
 {
-    "identifier": "com.pa.expansion.celestial.additional",
+    "identifier": "com.pa.expansion.celestial.additional.dev",
     "author":"Community",
 
     "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
@@ -23,7 +23,7 @@
     "priority": 200,
 
     "dependencies":[
-        "com.pa.expansion.celestial"
+        "com.pa.expansion.celestial.dev"
     ],
 
     "scenes":{

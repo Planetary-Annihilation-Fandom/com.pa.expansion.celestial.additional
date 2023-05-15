@@ -13,6 +13,7 @@
   "firing_arc_pitch": 360,
   "target_layers": [
     "WL_LandHorizontal",
-    "WL_WaterSurface"
+    "WL_WaterSurface",
+    "WL_SeaFloor"
   ]
 }
