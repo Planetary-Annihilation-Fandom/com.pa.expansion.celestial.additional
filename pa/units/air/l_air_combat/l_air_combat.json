@@ -1,9 +1,9 @@
 {
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "display_name": "!LOC:Nova",
-  "description": "!LOC:Combat Reclaimer - Reclaims nearby wreckage and trees. Repairs friendly units. Can't help build other structures. At death it creates a swarm of nanites.",
+  "description": "!LOC:Combat Reclaimer - Reclaims nearby wreckage and trees. Repairs friendly units. Can't help build other structures.",
   "max_health": 180,
-  "build_metal_cost": 300,
+  "build_metal_cost": 250,
   "guard_radius": 0,
   "guard_layer": "WL_Air",
   "tools": [
@@ -14,8 +14,7 @@
   ],
   "unit_types": [
     "UNITTYPE_Air",
-    "UNITTYPE_Offense",
-    "UNITTYPE_SelfDestruct",
+    "UNITTYPE_Construction",
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild",
@@ -24,9 +23,7 @@
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
-    "ORDER_Attack",
     "ORDER_Assist",
-    "ORDER_FireSecondaryWeapon",
     "ORDER_Reclaim",
     "ORDER_Repair",
     "ORDER_Use"
@@ -34,7 +31,7 @@
   "navigation": {
     "acceleration": 90,
     "brake": 60,
-    "move_speed": 60,
+    "move_speed": 50,
     "turn_speed": 1080,
     "wobble_factor": 0.25,
     "wobble_speed": 0.2
@@ -105,7 +102,5 @@
       "filename": "/pa/effects/specs/legion_fab_spray.pfx",
       "type": "build"
     }
-  ],
-  "spawn_unit_on_death": "/pa/units/air/l_air_combat/triggered/l_air_bomb.json",
-  "spawn_unit_on_death_with_velocity": false
+  ]
 }

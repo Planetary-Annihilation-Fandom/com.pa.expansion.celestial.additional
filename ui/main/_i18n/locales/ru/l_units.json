@@ -3,8 +3,8 @@
     "Nova":{
         "message":"Нова"
     },
-    "Combat Reclaimer - Reclaims nearby wreckage and trees. Repairs friendly units. Can't help build other structures. At death it creates a swarm of nanites.":{
-        "message":"Боевой Собиратель - Собирает ближайшие обломки юнитов и деревья. Ремонтирует дружественных юнитов. Не помогает строить сооружения. При смерти создает рой нанитов."
+    "Combat Reclaimer - Reclaims nearby wreckage and trees. Repairs friendly units. Can't help build other structures.":{
+        "message":"Боевой Собиратель - Собирает ближайшие обломки юнитов и деревья. Ремонтирует дружественных юнитов. Не помогает строить сооружения."
     },
 
     "Black Knight":{
