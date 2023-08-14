@@ -1,5 +1,5 @@
 {
-    "identifier": "com.pa.expansion.celestial.additional",
+    "identifier": "com.pa.expansion.celestial.additional.dev",
     "author":"Community",
 
     "icon": "https://raw.githubusercontent.com/Planetary-Annihilation-Fandom/com.pa.expansion.celestial/main/Celes.png",
@@ -19,11 +19,10 @@
     "version": "2.7.0-up0",
     "date": "2023-06-22",
     
-    "context":"server",
-    "priority": 200,
+    "context":"client",
+    "priority": 100,
 
     "dependencies":[
-        "com.pa.expansion.celestial"
     ],
 
     "scenes":{
@@ -32,7 +31,18 @@
 		],
 		"icon_atlas": [
 			"coui://ui/mods/com.pa.expansion.celestial.additional/icon_atlas.js"
-		]
+		],
+        "server_browser":[
+              "coui://ui/mods/lobby/viewer/server_browser.js"
+        ],
+        "new_game": [
+              "coui://ui/mods/lobby/viewer/start.js",
+              "coui://ui/mods/lobby/viewer/css/button.css",
+              "coui://ui/mods/lobby/generator/new_game.js"
+        ],
+        "live_game": [
+            "coui://ui/mods/gameplay/infinitybuild/main.js"
+        ]
     },
 
     "framework": false,
